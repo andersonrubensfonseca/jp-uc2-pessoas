@@ -18,7 +18,7 @@ function adicionar(){
         endereco:""
     }
 
-    leitor.question("Digite uma nome: ",function(answer){
+    leitor.question("Digite um nome: ",function(answer){
         obj.nome = answer
         leitor.question("Digite um documento: ", function(answer){
             obj.documento = answer
